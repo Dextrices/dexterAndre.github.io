@@ -253,17 +253,6 @@ h2
 
 
 
-.box-info
-{
-    margin: 20px;
-    padding: 10px;
-
-    background-color: #E3E9F0;
-    border-radius: 20px;
-    border: 4px solid coral;
-
-    text-align: center;
-}
 
 .gallery
 {
@@ -276,12 +265,14 @@ h2
 
 .gallery-content
 {
-    margin: 5px;
+    margin: 0;
+    padding: 8px;
 
     position: relative;
 
     float: left;
     width: 180px;
+    height: auto;
 
     outline: none;
 
@@ -291,8 +282,6 @@ h2
 }
 .gallery-content img
 {
-    width: 180px;
-    height: 180px;
     display: block;
 
     margin: 0 auto;
@@ -301,6 +290,75 @@ h2
     transition: opacity 0.2s ease-out;
     --webkit-transition: opacity 0.2s ease-out;
     --moz-transition: opacity 0.2s ease-out;
+}
+.gallery-content ul
+{
+    
+}
+#nordavind img
+{
+    width: 180px;
+    height: 99px;
+}
+#trance-mission img
+{
+    width: 180px;
+    height: 110px;
+}
+#butt-simulator img
+{
+    width: 180px;
+    height: 93px;
+}
+#project-biohazard img
+{
+    width: 180px;
+    height: 93px;
+}
+#project-rts img
+{
+    width: 180px;
+    height: 133px;
+}
+#bad-reception img
+{
+    width: 180px;
+    height: 135px;
+}
+#galapasec img
+{
+    width: 180px;
+    height: 198px;
+}
+#swarm img
+{
+    width: 180px;
+    height: 101px;
+}
+#bumpit img
+{
+    width: 180px;
+    height: 101px;
+}
+#chicken-hunt img
+{
+    width: 180px;
+    height: 101px;
+}
+#deadly-dancer img
+{
+    width: 180px;
+    height: 101px;
+}
+#maya-ragequit-simulator img
+{
+    width: 180px;
+    height: 93px;
+}
+#stuffy-hitman img
+{
+    width: 180px;
+    height: 128px;
 }
 
 .gallery-content:hover
@@ -314,5 +372,5 @@ h2
 .gallery-content .img-container
 {
     width: 180px;
-    height: 180px;
+    height:auto;
 }
