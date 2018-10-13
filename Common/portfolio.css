@@ -1,0 +1,454 @@
+/* Use box-sizing: border-box; in order to put borders inside? */
+
+
+/* Phones */
+@media only screen and (max-width: 600px)
+{
+
+}
+/* Large phones etc. */
+@media only screen and (min-width: 600px)
+{
+
+}
+/* Tablets */
+@media only screen and (min-width: 768px)
+{
+
+}
+/* Laptops etc. */
+@media only screen and (min-width: 992px)
+{
+
+}
+/* Desktops etc. */
+@media only screen and (min-width: 1200px)
+{
+    
+}
+
+
+
+
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+
+    background-color: #E3E9F0;
+
+    font-family: "Georgia", "Bitter", "Roboto", "Avenir", "Montserrat";
+}
+
+.header
+{
+    margin: 0;
+    padding: 0;
+
+    height: 32px;
+
+    background-color: #3782ED;
+}
+
+.header-bar
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    outline: none;
+    /* float: left; */
+}
+
+.header-bar #btn-brand
+{
+    height: 100%;
+    width: 15%;
+    margin: auto 20px;
+    
+    background-color: transparent;
+    border-color: transparent;
+    
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.header-bar #btn-dropdown
+{
+    height: 100%;
+    width: 15%;
+    margin: auto 20px;
+
+    background-color: transparent;
+    border-color: transparent;
+    
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.header-bar #inp-search
+{
+    height: 60%;
+    width: 15%;
+    margin: auto 20px;
+    
+    background-color: #ACBED6;
+    border-color: transparent;
+    border-radius: 5px;
+    
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.header-bar #btn-profile
+{
+    height: 100%;
+    width: 15%;
+    margin: auto 20px;
+    float: right;
+    
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.base
+{
+    height: 100%;
+    width: 65%;
+    margin: auto;
+
+    background-color: white;
+}
+
+h1
+{
+    font-size: 3em;
+    text-align: left;
+    font-weight: 400;
+
+    margin: 0;
+    padding-top: 16px;
+}
+
+h2
+{
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.content
+{
+    margin: auto 64px;
+}
+.content #list-topics
+{
+    padding: 0 20px;
+    list-style-type: none;
+}
+.content #list-topics a
+{
+    font-size: 1.25em;
+    color: #78A5FF;
+    
+    transition: color 0.2s ease-out;
+    --webkit-transition: color 0.2s ease-out;
+    --moz-transition: color 0.2s ease-out;
+}
+.content .list-topics .broken-link
+{
+    color: gray;
+}
+.broken-link
+{
+    color: gray;
+}
+#link-NA:hover
+{
+    color: #2B5FC7;
+}
+#link-LA:hover
+{
+    color: #FFA868;
+}
+#link-GEO:hover
+{
+    color: #D27E7E;
+}
+#link-FC:hover
+{
+    color: #91B56A;
+}
+#link-DM:hover
+{
+    color: #D27EC8;
+}
+
+.box-info
+{
+    margin: 20px;
+    padding: 10px;
+
+    background-color: #E3E9F0;
+    border-radius: 20px;
+    border: 4px solid coral;
+
+    text-align: center;
+}
+
+.gallery
+{
+    margin: 0 20px;
+    padding: 0 20px;
+    background-color: white;
+    display: table-cell;
+    text-align: center;
+}
+
+.gallery-content
+{
+    margin: 5px;
+
+    position: relative;
+
+    float: left;
+    width: 180px;
+
+    outline: none;
+
+    transition: color 0.2s ease-out;
+    --webkit-transition: color 0.2s;
+    --moz-transition: color 0.2s;
+}
+.gallery-content img
+{
+    width: 180px;
+    height: 180px;
+    display: block;
+
+    margin: 0 auto;
+    /* vertical-align: middle; */
+
+    transition: opacity 0.2s ease-out;
+    --webkit-transition: opacity 0.2s ease-out;
+    --moz-transition: opacity 0.2s ease-out;
+}
+
+.gallery-content:hover
+{
+    color: #A8A8A8;
+}
+.gallery-content img:hover
+{
+    opacity: .7;
+}
+.gallery-content .img-container
+{
+    width: 180px;
+    height: 180px;
+}
+
+#topic-numbers_and_algebra
+{
+    background-color: #DEE6F8;
+}
+#topic-numbers_and_algebra:hover
+{
+    color: #2B5FC7;
+    background-color: transparent;
+}
+
+#topic-linear_algebra
+{
+    background-color: #FFE7D6;
+}
+#topic-linear_algebra:hover
+{
+    color: #FFA868;
+    background-color: transparent;
+}
+
+#topic-geometry:hover
+{
+    color: #D27E7E;
+}
+
+#topic-functions_and_curves:hover
+{
+    color: #91B56A;
+}
+
+#topic-discrete_mathematics:hover
+{
+    color: #D27EC8;
+}
+
+/* .gallery-content img
+{
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+} */
+
+.image-title
+{
+    padding: 15px;
+    text-align: center;
+
+    font-size: 1.75em;
+    height: 65px;
+
+    border-radius: 16px 16px 0 0;
+    border: 1px solid #ccc;
+}
+
+/* Correcting line height manually */
+#topic-geometry
+{
+    line-height: 65px;
+    overflow: hidden;
+}
+
+.interactive-canvas
+{
+    text-align: center;
+    margin: 0 auto;
+}
+.interactive-canvas .sliderContainer
+{
+    width: 448px;
+    margin: 16px auto;
+}
+.interactive-canvas .slider
+{
+    -webkit-appearance: none;
+    width: 50%;
+    vertical-align: middle;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+.interactive-canvas .slider:hover
+{
+    opacity: 1.0;
+}
+.interactive-canvas .slider::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.interactive-canvas .variableName
+{
+    text-align: right;
+    vertical-align: middle;
+    display: inline-block;
+    /* margin-bottom: 1em; */
+    margin: auto 0;
+}
+.interactive-canvas .variableValue
+{
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto 0;
+}
+.interactive-canvas .description
+{
+    text-align: left;
+    margin:  auto 0;
+}
+
+tr td
+{
+    padding: 0 15px;
+    text-align: center;
+}
+
+.key-value td
+{
+    text-align: center;
+}
+
+.key-value td:nth-child(2n + 2)
+{
+    text-align: left;
+}
+
+.key-value2 td
+{
+    text-align: center;
+}
+.key-value2 td:nth-child(3n + 2)
+{
+    text-align: left;
+}
+.key-value2 td:nth-child(3n + 3)
+{
+    text-align: center;
+}
+
+.key-value3 td:nth-child(2n + 1)
+{
+    text-align: left;
+}
+.key-value3 td:nth-child(2n + 2)
+{
+    text-align: left;
+}
+
+.inline-image
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.matrix-table
+{
+    background-color: #EEE;
+    border: none;
+}
+.matrix-table tr:nth-child(even)
+{
+    background-color: #DDD;
+}
+.matrix-table tr:first-child th:nth-child(even)
+{
+    background-color: #DDD;
+}
+.matrix-table tr:nth-child(even) td:nth-child(even)
+{
+    background-color: #CCC;
+}
+.matrix-table tr:nth-child(2n + 3) td:nth-child(2n + 3)
+{
+    background-color: #EEE;
+}
+.matrix-table tr:nth-child(2n + 3) td:nth-child(2n + 2)
+{
+    background-color: #DDD;
+}
