@@ -145,7 +145,7 @@ h2
 .navbar li:hover a
 {
     /* background-color: #373737; */
-    background-color: white;
+    background-color: rgb(235, 235, 235);
 }
 .navbar li ul
 {
@@ -157,6 +157,7 @@ h2
     padding: 0;
 
     text-align: left;
+
 }
 .navbar li:hover ul
 {
@@ -165,12 +166,12 @@ h2
 .navbar li ul li a
 {
     width: 100%;
-
+    
     border: 1px solid #373737;
     border-width: 1px 0;
-
+    
     color: #373737;
-
+    background-color: white;
 }
 .navbar li ul li:hover a
 {
