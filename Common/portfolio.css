@@ -37,7 +37,7 @@ body
     margin: 0;
     padding: 0;
 
-    background-color: #E3E9F0;
+    background-color: white;
 
     font-family: "Georgia", "Bitter", "Roboto", "Avenir", "Montserrat";
 }
@@ -58,6 +58,7 @@ h2
     font-weight: 400;
     font-size: 2em;
 }
+
 #subtitle
 {
     font-size: 1.75em;
@@ -80,124 +81,109 @@ h2
 
 .header-content
 {
-    width: 85%;
+    width: 80%;
     margin: auto;
 
-    background-color: aliceblue;
+    border-radius: 32px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    background-color: white;
 }
 
 .header-bar
 {
-    display: inline-block;
-    margin: 8px auto auto auto;
+    margin: 8px auto;
     padding: 0;
     outline: none;
 }
 
-.dropdown-element
+.navbar
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.navbar li
 {
     position: relative;
-    display: inline-block;
+    display: inline;
 }
-
-.dropdown-button
+.navbar a
 {
+    display: inline-block;
+    padding: 10px;
+
     font-family: "Century Gothic", "Ebrima", "Impact", "Arial Black", "Arial";
     font-size: 1.25em;
     font-weight: 700;
-
-    background-color: transparent;
     color: #20CE88;
-    padding: 16px;
-    border: none;
+    text-decoration: none;
 }
-.dropdown-element:hover .dropdown-button
+.navbar li:hover a
 {
     background-color: #373737;
 }
-
-.dropdown-content
+.navbar li ul
 {
-    display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    left: 0px;
+    display: none;
+    
+    margin: auto;
+    padding: 0;
+
+    text-align: left;
 }
-.dropdown-content a
-{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover
-{
-    background-color: #ddd;
-}
-.dropdown-element:hover .dropdown-content
+.navbar li:hover ul
 {
     display: block;
+}
+.navbar li ul li a
+{
+    width: 100%;
+
+    border: 1px solid white;
+    border-width: 1px 0;
+}
+.navbar li ul li:hover a
+{
+    background-color: white;
 }
 
 .base
 {
     height: 100%;
-    width: 85%;
+    width: 80%;
     margin: auto;
+
+    background-color: white;
+}
+
+.content
+{
+    height: 100%;
+    width: 80%;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    padding-left: 10%;
+    padding-right: 10%;
 
     background-color: white;
 }
 
 
 
-.content
-{
-    margin: auto 64px;
-}
-.content #list-topics
-{
-    padding: 0 20px;
-    list-style-type: none;
-}
-.content #list-topics a
-{
-    font-size: 1.25em;
-    color: #78A5FF;
-    
-    transition: color 0.2s ease-out;
-    --webkit-transition: color 0.2s ease-out;
-    --moz-transition: color 0.2s ease-out;
-}
-.content .list-topics .broken-link
-{
-    color: gray;
-}
-.broken-link
-{
-    color: gray;
-}
-#link-NA:hover
-{
-    color: #2B5FC7;
-}
-#link-LA:hover
-{
-    color: #FFA868;
-}
-#link-GEO:hover
-{
-    color: #D27E7E;
-}
-#link-FC:hover
-{
-    color: #91B56A;
-}
-#link-DM:hover
-{
-    color: #D27EC8;
-}
+
+
+
+
+
+
 
 .box-info
 {
@@ -261,193 +247,4 @@ h2
 {
     width: 180px;
     height: 180px;
-}
-
-#topic-numbers_and_algebra
-{
-    background-color: #DEE6F8;
-}
-#topic-numbers_and_algebra:hover
-{
-    color: #2B5FC7;
-    background-color: transparent;
-}
-
-#topic-linear_algebra
-{
-    background-color: #FFE7D6;
-}
-#topic-linear_algebra:hover
-{
-    color: #FFA868;
-    background-color: transparent;
-}
-
-#topic-geometry:hover
-{
-    color: #D27E7E;
-}
-
-#topic-functions_and_curves:hover
-{
-    color: #91B56A;
-}
-
-#topic-discrete_mathematics:hover
-{
-    color: #D27EC8;
-}
-
-/* .gallery-content img
-{
-    width: 100%;
-    height: auto;
-
-    margin: 0;
-    padding: 0;
-} */
-
-.image-title
-{
-    padding: 15px;
-    text-align: center;
-
-    font-size: 1.75em;
-    height: 65px;
-
-    border-radius: 16px 16px 0 0;
-    border: 1px solid #ccc;
-}
-
-/* Correcting line height manually */
-#topic-geometry
-{
-    line-height: 65px;
-    overflow: hidden;
-}
-
-.interactive-canvas
-{
-    text-align: center;
-    margin: 0 auto;
-}
-.interactive-canvas .sliderContainer
-{
-    width: 448px;
-    margin: 16px auto;
-}
-.interactive-canvas .slider
-{
-    -webkit-appearance: none;
-    width: 50%;
-    vertical-align: middle;
-    height: 25px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: 0.2s;
-    transition: opacity 0.2s;
-}
-.interactive-canvas .slider:hover
-{
-    opacity: 1.0;
-}
-.interactive-canvas .slider::-webkit-slider-thumb
-{
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    background: #4CAF50;
-    cursor: pointer;
-}
-.interactive-canvas .variableName
-{
-    text-align: right;
-    vertical-align: middle;
-    display: inline-block;
-    /* margin-bottom: 1em; */
-    margin: auto 0;
-}
-.interactive-canvas .variableValue
-{
-    text-align: left;
-    vertical-align: middle;
-    display: inline-block;
-    margin: auto 0;
-}
-.interactive-canvas .description
-{
-    text-align: left;
-    margin:  auto 0;
-}
-
-tr td
-{
-    padding: 0 15px;
-    text-align: center;
-}
-
-.key-value td
-{
-    text-align: center;
-}
-
-.key-value td:nth-child(2n + 2)
-{
-    text-align: left;
-}
-
-.key-value2 td
-{
-    text-align: center;
-}
-.key-value2 td:nth-child(3n + 2)
-{
-    text-align: left;
-}
-.key-value2 td:nth-child(3n + 3)
-{
-    text-align: center;
-}
-
-.key-value3 td:nth-child(2n + 1)
-{
-    text-align: left;
-}
-.key-value3 td:nth-child(2n + 2)
-{
-    text-align: left;
-}
-
-.inline-image
-{
-    display: block;
-    margin: 0 auto;
-}
-
-.matrix-table
-{
-    background-color: #EEE;
-    border: none;
-}
-.matrix-table tr:nth-child(even)
-{
-    background-color: #DDD;
-}
-.matrix-table tr:first-child th:nth-child(even)
-{
-    background-color: #DDD;
-}
-.matrix-table tr:nth-child(even) td:nth-child(even)
-{
-    background-color: #CCC;
-}
-.matrix-table tr:nth-child(2n + 3) td:nth-child(2n + 3)
-{
-    background-color: #EEE;
-}
-.matrix-table tr:nth-child(2n + 3) td:nth-child(2n + 2)
-{
-    background-color: #DDD;
 }
