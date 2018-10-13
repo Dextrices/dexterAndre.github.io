@@ -79,6 +79,16 @@ h2
     margin-bottom: 0;
 }
 
+.navbar li .active
+{
+    color: #20CE88;
+}
+
+.navbar li .inactive
+{
+    color: #373737;
+}
+
 .header
 {
     margin: auto;
@@ -129,12 +139,13 @@ h2
     font-family: "Century Gothic", "Ebrima", "Impact", "Arial Black", "Arial";
     font-size: 1.25em;
     font-weight: 700;
-    color: #20CE88;
+    /* color: #20CE88; */
     text-decoration: none;
 }
 .navbar li:hover a
 {
-    background-color: #373737;
+    /* background-color: #373737; */
+    background-color: white;
 }
 .navbar li ul
 {
@@ -155,12 +166,16 @@ h2
 {
     width: 100%;
 
-    border: 1px solid white;
+    border: 1px solid #373737;
     border-width: 1px 0;
+
+    color: #373737;
+
 }
 .navbar li ul li:hover a
 {
     background-color: white;
+    color: #20CE88;
 }
 
 .footer
