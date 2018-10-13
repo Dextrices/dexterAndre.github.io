@@ -65,6 +65,7 @@ h2
 
     text-align: center;
     margin-top: 16px;
+    margin-bottom: 0;
 }
 
 .header
@@ -72,7 +73,7 @@ h2
     margin: auto;
     padding: 32px 0 32px 0;
 
-    height: 256px;
+    height: 196px;
 
     background-color: #3782ED;
 }
@@ -87,7 +88,8 @@ h2
 
 .header-bar
 {
-    margin: auto;
+    display: inline-block;
+    margin: 8px auto auto auto;
     padding: 0;
     outline: none;
 }
@@ -100,15 +102,18 @@ h2
 
 .dropdown-button
 {
-    background-color: #4CAF50;
-    color: white;
+    font-family: "Century Gothic", "Ebrima", "Impact", "Arial Black", "Arial";
+    font-size: 1.25em;
+    font-weight: 700;
+
+    background-color: transparent;
+    color: #20CE88;
     padding: 16px;
-    font-size: 16px;
     border: none;
 }
 .dropdown-element:hover .dropdown-button
 {
-    background-color: #3e8e41;
+    background-color: #373737;
 }
 
 .dropdown-content
