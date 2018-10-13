@@ -42,6 +42,16 @@ body
     font-family: "Georgia", "Bitter", "Roboto", "Avenir", "Montserrat";
 }
 
+p
+{
+    color: #373737;
+}
+
+li
+{
+    color: #373737;
+}
+
 h1
 {
     font-size: 3em;
@@ -153,6 +163,39 @@ h2
     background-color: white;
 }
 
+.footer
+{
+    margin: auto;
+    padding: 16px 0;
+
+    height: 64px;
+
+    background-color: #3782ED;
+
+    text-align: center;
+}
+
+.footer p
+{
+    margin: 8px;
+}
+.footer ul
+{
+    list-style: none;
+    margin: auto;
+}
+.footer ul li
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 32px;
+    font-size: 1em;
+}
+.icon-links
+{
+    font-size: 1.5em;
+}
+
 .base
 {
     height: 100%;
@@ -176,6 +219,14 @@ h2
     background-color: white;
 }
 
+#selfie
+{
+    float: right;
+    margin: 92px 16px 16px 16px;
+    
+    width: 200px;
+    height: 266px;
+}
 
 
 
