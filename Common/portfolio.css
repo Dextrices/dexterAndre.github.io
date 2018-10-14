@@ -40,6 +40,8 @@ body
     background-color: white;
 
     font-family: "Georgia", "Bitter", "Roboto", "Avenir", "Montserrat";
+
+    height: 100%;
 }
 
 p
@@ -78,6 +80,49 @@ h2
     margin-top: 16px;
     margin-bottom: 0;
 }
+
+table
+{
+    border-spacing: 0;
+    /* max-width: 100%; */
+    /* white-space: nowrap; */
+}
+td, th
+{
+    border-bottom: 1px solid #dbdbdb;
+    padding: 6px;
+}
+tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+tr:hover
+{
+    background-color: #ddd;
+}
+tr th:first-of-type, td:first-of-type
+{
+    border-right: 1px solid #dbdbdb;
+    padding: 6px;
+}
+
+th
+{
+    background-color: #3782ED;
+    color: white;
+    font-weight: 700;
+    /* padding: 8px 0; */
+}
+td:first-of-type
+{
+    text-align: right;
+}
+td:nth-of-type(2)
+{
+    text-align: left;
+}
+
+
 
 .navbar li .active
 {
@@ -179,6 +224,12 @@ h2
     color: #20CE88;
 }
 
+.push
+{
+    background-color: transparent;
+    height: 64px;
+}
+
 .footer
 {
     margin: auto;
@@ -224,8 +275,13 @@ h2
 
 .content
 {
+    /* height: 100%;
+    width: 80%; */
+
+    min-height: 100%;
+    height: auto;
     height: 100%;
-    width: 80%;
+    margin: 0 auto -64px;
 
     padding-top: 32px;
     padding-bottom: 32px;
