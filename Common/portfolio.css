@@ -31,7 +31,7 @@
 
 
 
-
+/* General body and content */
 body
 {
     margin: 0;
@@ -43,17 +43,52 @@ body
 
     height: 100%;
 }
+.base
+{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    
+    background-color: white;
+}
+.content
+{
+    /* height: 100%;
+    width: 80%; */
 
+    min-height: 100%;
+    height: auto;
+    height: 100%;
+    margin: 0 auto -64px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    background-color: white;
+}
+#selfie
+{
+    float: right;
+    margin: 92px 16px 16px 16px;
+    
+    width: 200px;
+    height: 266px;
+}
+
+/* General text */
 p
 {
     color: #373737;
 }
-
 li
 {
     color: #373737;
 }
 
+/* Headers, etc. */
 h1
 {
     font-size: 3em;
@@ -64,13 +99,11 @@ h1
     margin: 0;
     padding-top: 32px;
 }
-
 h2
 {
     font-weight: 400;
     font-size: 2em;
 }
-
 #subtitle
 {
     font-size: 1.75em;
@@ -81,22 +114,36 @@ h2
     margin-bottom: 0;
 }
 
+/* Tables */
 table
 {
     border-spacing: 0;
     /* max-width: 100%; */
     /* white-space: nowrap; */
+    width: 100%;
+}
+.education-summary
+{
+    text-align: center;
 }
 td, th
 {
     border-bottom: 1px solid #dbdbdb;
     padding: 6px;
 }
+.experience-table tr td:first-of-type, .experience-table th:first-of-type
+{
+    width: 160px;
+}
 tr:nth-child(even)
 {
     background-color: #f2f2f2;
 }
-tr:hover
+#vr-ar tr:last-of-type
+{
+    background-color: white;
+}
+.experience-table tr:hover
 {
     background-color: #ddd;
 }
@@ -105,7 +152,10 @@ tr th:first-of-type, td:first-of-type
     border-right: 1px solid #dbdbdb;
     padding: 6px;
 }
-
+#vr-ar tr:nth-last-of-type(2) td
+{
+    border-bottom: none;
+}
 th
 {
     background-color: #3782ED;
@@ -113,27 +163,16 @@ th
     font-weight: 700;
     /* padding: 8px 0; */
 }
-td:first-of-type
+.experience-table td:first-of-type
 {
     text-align: right;
 }
-td:nth-of-type(2)
+.experience-table td:nth-of-type(2)
 {
     text-align: left;
 }
 
-
-
-.navbar li .active
-{
-    color: #20CE88;
-}
-
-.navbar li .inactive
-{
-    color: #373737;
-}
-
+/* Header */
 .header
 {
     margin: auto;
@@ -143,7 +182,6 @@ td:nth-of-type(2)
 
     background-color: #3782ED;
 }
-
 .header-content
 {
     width: 80%;
@@ -154,7 +192,6 @@ td:nth-of-type(2)
 
     background-color: white;
 }
-
 .header-bar
 {
     margin: 8px auto;
@@ -162,6 +199,15 @@ td:nth-of-type(2)
     outline: none;
 }
 
+/* Navbar */
+.navbar li .active
+{
+    color: #20CE88;
+}
+.navbar li .inactive
+{
+    color: #373737;
+}
 .navbar
 {
     margin: 0;
@@ -224,24 +270,18 @@ td:nth-of-type(2)
     color: #20CE88;
 }
 
-.push
-{
-    background-color: transparent;
-    height: 64px;
-}
-
+/* Footer */
 .footer
 {
     margin: auto;
     padding: 16px 0;
-
+    
     height: 64px;
-
+    
     background-color: #3782ED;
-
+    
     text-align: center;
 }
-
 .footer p
 {
     margin: 8px;
@@ -263,53 +303,13 @@ td:nth-of-type(2)
     font-size: 1.5em;
     color: white;
 }
-
-.base
+.push
 {
-    height: 100%;
-    width: 80%;
-    margin: auto;
-
-    background-color: white;
+    background-color: transparent;
+    height: 64px;
 }
 
-.content
-{
-    /* height: 100%;
-    width: 80%; */
-
-    min-height: 100%;
-    height: auto;
-    height: 100%;
-    margin: 0 auto -64px;
-
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-    padding-left: 10%;
-    padding-right: 10%;
-
-    background-color: white;
-}
-
-#selfie
-{
-    float: right;
-    margin: 92px 16px 16px 16px;
-    
-    width: 200px;
-    height: 266px;
-}
-
-
-
-
-
-
-
-
-
-
+/* Gallery display */
 .gallery
 {
     margin: 0 20px;
@@ -318,7 +318,6 @@ td:nth-of-type(2)
     display: table-cell;
     text-align: center;
 }
-
 .gallery-content
 {
     margin: 0;
@@ -347,10 +346,21 @@ td:nth-of-type(2)
     --webkit-transition: opacity 0.2s ease-out;
     --moz-transition: opacity 0.2s ease-out;
 }
-.gallery-content ul
+.gallery-content:hover
 {
-    
+    color: #A8A8A8;
 }
+.gallery-content img:hover
+{
+    opacity: .7;
+}
+.gallery-content .img-container
+{
+    width: 180px;
+    height:auto;
+}
+
+/* Specific gallery contents */
 #nordavind img
 {
     width: 180px;
@@ -415,18 +425,4 @@ td:nth-of-type(2)
 {
     width: 180px;
     height: 128px;
-}
-
-.gallery-content:hover
-{
-    color: #A8A8A8;
-}
-.gallery-content img:hover
-{
-    opacity: .7;
-}
-.gallery-content .img-container
-{
-    width: 180px;
-    height:auto;
 }
