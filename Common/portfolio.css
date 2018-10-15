@@ -4,27 +4,72 @@
 /* Phones */
 @media only screen and (max-width: 600px)
 {
-
+    .content
+    {
+        width: 540px;
+        padding: 0 auto;
+    }
+    .header-content
+    {
+        width: 540px;
+        padding: 0 auto;
+    }
 }
 /* Large phones etc. */
 @media only screen and (min-width: 600px)
 {
-
+    .content
+    {
+        width: 540px;
+        padding: 0 auto;
+    }
+    .header-content
+    {
+        width: 540px;
+        padding: 0 auto;
+    }
 }
 /* Tablets */
 @media only screen and (min-width: 768px)
 {
-
+    .content
+    {
+        width: 600px;
+        padding: 0 auto;
+    }
+    .header-content
+    {
+        width: 600px;
+        padding: 0 auto;
+    }
 }
 /* Laptops etc. */
 @media only screen and (min-width: 992px)
 {
-
+    .content
+    {
+        width: 768px;
+        padding: 0 auto;
+    }
+    .header-content
+    {
+        width: 600px;
+        padding: 0 auto;
+    }
 }
 /* Desktops etc. */
 @media only screen and (min-width: 1200px)
 {
-    
+    .content
+    {
+        width: 992px;
+        padding: 0 auto;
+    }
+    .header-content
+    {
+        width: 600px;
+        padding: 0 auto;
+    }
 }
 
 
