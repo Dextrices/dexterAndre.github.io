@@ -4,41 +4,46 @@
 /* Phones */
 @media only screen and (max-width: 600px)
 {
-    .base
+    .content
     {
         width: 540px;
+        padding: 0 auto;
     }
 }
 /* Large phones etc. */
 @media only screen and (min-width: 600px)
 {
-    .base
+    .content
     {
         width: 540px;
+        padding: 0 auto;
     }
 }
 /* Tablets */
 @media only screen and (min-width: 768px)
 {
-    .base
+    .content
     {
         width: 600px;
+        padding: 0 auto;
     }
 }
 /* Laptops etc. */
 @media only screen and (min-width: 992px)
 {
-    .base
+    .content
     {
         width: 768px;
+        padding: 0 auto;
     }
 }
 /* Desktops etc. */
 @media only screen and (min-width: 1200px)
 {
-        .base
+    .content
     {
         width: 992px;
+        padding: 0 auto;
     }
 }
 
