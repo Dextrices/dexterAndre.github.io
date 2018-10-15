@@ -465,8 +465,19 @@ th
     font-size: 1em;
     font-weight: 400;
 }
+.video-hover
+{
+    height: 101px;
+    width: 180px;
+}
+#video-deformable-snow
+{
+    height: 101px;
+    width: 180px;
+}
 
 /* Specific gallery contents */
+/* Replace with just images that have been downscaled */
 #nordavind img
 {
     width: 180px;
