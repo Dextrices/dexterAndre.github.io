@@ -4,27 +4,42 @@
 /* Phones */
 @media only screen and (max-width: 600px)
 {
-
+    .base
+    {
+        width: 540px;
+    }
 }
 /* Large phones etc. */
 @media only screen and (min-width: 600px)
 {
-
+    .base
+    {
+        width: 540px;
+    }
 }
 /* Tablets */
 @media only screen and (min-width: 768px)
 {
-
+    .base
+    {
+        width: 600px;
+    }
 }
 /* Laptops etc. */
 @media only screen and (min-width: 992px)
 {
-
+    .base
+    {
+        width: 768px;
+    }
 }
 /* Desktops etc. */
 @media only screen and (min-width: 1200px)
 {
-    
+        .base
+    {
+        width: 992px;
+    }
 }
 
 
