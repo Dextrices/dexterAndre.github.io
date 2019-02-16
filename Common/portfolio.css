@@ -171,7 +171,79 @@
 }
 
 
+.gallery3
+{
+    text-align: left;
+}
+.gallery3-content
+{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(49, 104, 180);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    outline: none;
 
+    transition: all 0.2s ease-out;
+    --webkit-transition: all 0.2s ease-out;
+    --moz-transition: all 0.2s ease-out;
+
+    color: rgb(235, 235, 235);
+}
+.gallery3-content:hover
+{
+    background-color: rgb(101, 143, 206)
+}
+.gallery3 .item3-title
+{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-decoration: underline;
+    color: rgb(235, 235, 235);
+
+    margin: 0;
+}
+.gallery3 .item3-subtitle
+{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+    color: rgb(235, 235, 235);
+
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.gallery3 .item3-description
+{
+    text-align: left;
+    font-size: 1em;
+    font-weight: 200;
+    color: rgb(235, 235, 235);
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gallery3 .image3-contributions
+{
+    color: rgb(235, 235, 235);
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.image3
+{
+    float: left;
+    height: 150px;
+    width: 240px;
+
+    margin-right: 32px;
+}
+.gallery3 a
+{
+    /* Removing underlines from text */
+    text-decoration: none;
+}
 
 /* General body and content */
 body
@@ -191,7 +263,7 @@ body
     width: 80%;
     margin: auto;
     
-    background-color: white;
+    background-color: #373737;
 }
 .content
 {
@@ -223,11 +295,11 @@ body
 /* General text */
 p
 {
-    color: #373737;
+    /* color: #373737; */
 }
 li
 {
-    color: #373737;
+    /* color: #373737; */
 }
 
 /* Headers, etc. */
@@ -571,73 +643,5 @@ th
 {
     height: 101px;
     width: 180px;
-}
-
-/* Specific gallery contents */
-/* Replace with just images that have been downscaled */
-#nordavind img
-{
-    width: 180px;
-    height: 99px;
-}
-#trance-mission img
-{
-    width: 180px;
-    height: 110px;
-}
-#butt-simulator img
-{
-    width: 180px;
-    height: 93px;
-}
-#project-biohazard img
-{
-    width: 180px;
-    height: 93px;
-}
-#project-rts img
-{
-    width: 180px;
-    height: 133px;
-}
-#bad-reception img
-{
-    width: 180px;
-    height: 135px;
-}
-#galapasec img
-{
-    width: 180px;
-    height: 198px;
-}
-#swarm img
-{
-    width: 180px;
-    height: 101px;
-}
-#bumpit img
-{
-    width: 180px;
-    height: 101px;
-}
-#chicken-hunt img
-{
-    width: 180px;
-    height: 101px;
-}
-#deadly-dancer img
-{
-    width: 180px;
-    height: 101px;
-}
-#maya-ragequit-simulator img
-{
-    width: 180px;
-    height: 93px;
-}
-#stuffy-hitman img
-{
-    width: 180px;
-    height: 128px;
 }
 
