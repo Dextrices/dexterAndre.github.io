@@ -1,1 +1,0 @@
-# Luma - LudoMath's mathematics library! 
