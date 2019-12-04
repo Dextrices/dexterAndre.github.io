@@ -2,102 +2,1081 @@
 <html>
 
 <head>
-    <title>Portfolio - Dexter André Osiander</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="Common/portfolio.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-        crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dexter Portfolio 2</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
-    <div class="header">
-        <div class="header-content">
-            <h1>Portfolio: Dexter André Osiander</h1>
-            <p id="subtitle">Gameplay Programming, Mathematics, Technical Art</p>
-            <div class="header-bar">
-                <ul class="navbar">
-                    <li>
-                        <a href="index.html" class="active">About</a>
-                    </li>
-                    <li>
-                        <a href="works.html" class="inactive">Works <i class="fas fa-caret-down"></i></a>
-                        <ul>
-                            <li><a href="works-student-game-projects.html">Student Game Projects</a></li>
-                            <li><a href="works-programming.html">Programming</a></li>
-                            <li><a href="works-technical-art.html">Technical Art</a></li>
-                            <li><a href="works-mathematics.html">Mathematics</a></li>
-                            <li><a href="works-game-design.html">Game Design</a></li>
-                            <li><a href="works-misc.html">Misc.</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="experience-education.html" class="inactive">Experience & Education</a>
-                    </li>
-                    <li>
-                        <a href="skills-simple.html" class="inactive">Skills</a>
-                    </li>
-                    <li>
-                        <a href="cv.html" class="inactive">CV</a>
-                    </li>
-                </ul>
-            </div>
+<body style="font-family: Georgia, Bitter, Roboto, Lato;">
+    <div class="text-center bg-secondary">
+        <div class="bg-primary shadow d-inline-block" style="width: 80%;margin: 32px;border-radius: 32px;padding: 32px;padding-top: 32px;padding-right: 32px;padding-left: 32px;padding-bottom: 0px;">
+            <h1 style="text-decoration: underline;font-weight: 400;">Portfolio: Dexter André Osiander</h1>
+            <p style="font-size: 1.75em;margin: 0px;">Gameplay Programming, Technical Art, Mathematics</p>
+            <div class="btn-group" role="group" style="font-family: &quot;Century Gothic&quot;, &quot;Ebrima&quot;, &quot;Impact&quot;, &quot;Arial Black&quot;, &quot;Arial&quot;;font-weight: 700;"><button class="btn" id="btn_about" type="button">About</button><button class="btn" id="btn_works" type="button">Works</button>
+                <div class="dropdown btn-group show d-none" role="group"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="true" type="button">Works</button>
+                    <div class="dropdown-menu show" role="menu"><a class="dropdown-item" role="presentation" href="#">Professional Games</a><a class="dropdown-item" role="presentation" href="#">Personal /&nbsp;Student Projects</a><a class="dropdown-item" role="presentation" href="#">Algorithms</a>
+                        <a
+                            class="dropdown-item" role="presentation" href="#">Technical Art</a><a class="dropdown-item" role="presentation" href="#">Miscellaneous</a></div>
+                </div><button class="btn" id="btn_experience-and-education" type="button">Experience &amp; Education</button></div>
         </div>
     </div>
-    <div class="content">
-        <img id="selfie" src="Images/Selfie-1.jpg">
-        <h2>Hello!</h2>
-        <p>
-            My name is Dexter André Osiander, and I am a professional game programmer, currently employed at <a href="https://miscgames.no/">Misc Games</a> as a gameplay programmer. I have a bachelor's degree in <em>Game Technology and Simulation</em>, and a degree for a one-year course in <em>Augmented and Virtual Reality</em>. Currently living in Stavanger, Norway. 
-        </p>
-        <p>
-            I enjoy working with 3rd-person gameplay programming, graphics programming, and mathematics, and I love diving into new programming topics.
-            I have worked mainly with C# in Unity and C++ in Unreal Engine 4, and in Qt. Also, I have some experience with graphics programming in OpenGL and GLSL. See my <a href="skills-simple.html"><em>Skills</em></a> section for further info on these things.
-        </p>
-        <p>
-            Skill-wise, I aim to learn new gameplay solutions, graphics tricks, and new genres and game mechanics. I also try to become familiar with content creation software like Maya and Blender, so that I can help out with difficult bugs or create scripts and tools that the artists and designers need. 
-        </p>
-        <p>
-            My favorite games tend to be 3rd-person action games. Here are my favorite games: Ico, Bloodborne, Paper Mario 2, Õkami, Super Mario Odyssey, A Hat in Time, Snake Pass, Rayman Legends, Wind Waker, Overwatch, Mario & Luigi: Paper Jam, Frostpunk, Hollow Knight, The Banner Saga. 
-        </p>
-        <p>
-            The qualities I most value in games are consistency, uniqueness, and gameplay depth. Nintendo games tend to satisfy those criteria in my experience. 
-        </p>
-        <p>
-            I love cool gadgets, and have tinkered with motion capture, eye tracking, and hand tracking for games.
-        </p>
-        <p>
-            (My previous name was André Tofteland. Please remember that when looking through my works, as the older files still credit that name.)
-        </p>
-        <h2>Work Qualities</h2>
-        <ul>
-            <li>Good at finding optimized, mathematical solutions to problems</li>
-            <li>Always thinking in terms of good game design</li>
-            <li>I can communicate well with most of the team on a technical level</li>
-            <li>Experience with project management and role as Scrum master from school projects</li>
-            <li>Concise, well-formatted, and commented code</li>
-            <li>I enjoy teaching (and have working experience with it)</li>
-        </ul>
-        <h2>Currently Doing...</h2>
-        <ul>
-            <li>Creating a gamedev blog</li>
-            <li>Playing Link's Awakening for Switch</li>
-        </ul>
-        <h2>Contact</h2>
-        Feel free to contact me with professional inquiries at:
-        <ul>
-            <li>E-mail: <a href="mailto:dexter.andre@outlook.com">dexter.andre@outlook.com</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/dexter-andr%C3%A9-osiander-b1819415b/">Dexter André</a></li>
-        </ul>
-
-        <!-- This part pushes the content all the way down to make the footer stay at bottom.  -->
-        <div class="push"></div>
+    <div style="margin-right: 20%;margin-left: 20%;margin-top: 32px;margin-bottom: 32px;">
+        <div id="div_about"><img class="img-fluid d-inline-block float-right" src="assets/img/Selfie-1.jpg" style="width: 200;height: 266;margin-right: 16px;margin-left: 16px;">
+            <h1>Welcome!</h1>
+            <p style="margin: 0px;">My name is Dexter André Osiander, and I am a professional game developer, currently employed at <a href="https://miscgames.no/">Misc Games</a> as a gameplay programmer. I have a bachelor's degree in <a href="https://www.inn.no/studiehaandbok/studiehaandboeker/2015-2016-studiehaandbok/studier/hihm/campus-hamar/bachelor/b2visim-bachelor-i-spillteknologi-og-simulering">Game Technology and Simulation</a>,
+                and a degree for a one-year course in <a href="https://eng.inn.no/study-opportunities/catalogue/film-tv-and-computer-and-game-studies/add-on-programme-in-virtual-reality-and-augmented-reality">Augmented and Virtual Reality</a>. Currently
+                living in Stavanger, Norway.&nbsp;</p>
+            <p>I am primarily experienced with C# in Unity, and with C++ in Unreal Engine 4 and Qt. I have also worked with Rust, JavaScript, OpenGL, GLSL, HTML, and CSS. See the Competence section for a self-assessment of my skills.&nbsp;</p>
+            <p>Skill-wise, I aim to learn new gameplay solutions, graphics tricks, game mechanics, and genres. I also try to familiarize myself with content creation software like Blender and Autodesk Maya so that I can help out with difficult technical
+                bugs or create scripts and tools that the artists and designers need. My favorite programming tasks tend to revolve around 3rd-person action gameplay, and I love working with 3D mathematics.&nbsp;</p>
+            <p>My favorite games are: Ico, Bloodborne, Sekiro, Paper Mario 2, Õkami, Super Mario Odyssey, Pikmin, Snake Pass, Wind Waker, Overwatch, Frostpunk, Hollow Knight, The Banner Saga.&nbsp;</p>
+            <p>I value consistency, uniqueness, and gameplay depth in games. Many Nintendo games tend to satisfy those criteria for me in my experience.&nbsp;</p>
+            <p>In my free time, I enjoy learning new things. Programming languages, gameplay gadgets (Leap Motion, Tobii Eye Tracker, VR, etc.). I also love attending game jams!&nbsp;</p>
+            <p>(My previous name was André Tofteland. Please remember that when looking through my works, as the older files still credit that name.)</p>
+            <h1>Work Qualities</h1>
+            <ul>
+                <li>Good at finding optimized, mathematical solutions to problems</li>
+                <li>Always thinking in terms of good game design</li>
+                <li>I can communicate well with most of the team on a technical level</li>
+                <li>Experience with project management and Scrum</li>
+                <li>Concise, well-formatted, documented, and commented code</li>
+                <li>I enjoy teaching (and have working experience with it)</li>
+            </ul>
+            <h1>Currently doing...</h1>
+            <ul>
+                <li>Learning Rust!</li>
+                <li>Creating a programming gallery for my portfolio</li>
+            </ul>
+        </div>
+        <div id="div_works">
+            <h1>Works</h1>
+            <p>These are various games and projects I've made during my studies, and throughout my career so far. Some of them are professional projects, others are school assignments, and the rest are personal projects through group projects, game jams,
+                and solo projects.&nbsp;</p>
+            <p>I have listed my main tasks on the following projects. Click the images for more information on them. Not all projects are available for download, but most of them should be. If not listed by default, you can request specific code / file samples
+                by email. All items are sorted by date (descending) within their categories.&nbsp;</p>
+            <p><strong><span style="text-decoration: underline;">Note I</span></strong>: some content may only be available in Norwegian.&nbsp;<br><strong><span style="text-decoration: underline;">Note II</span></strong>: some content may not be safe for
+                work.&nbsp;</p>
+            <div role="tablist" id="accordion-1">
+                <div class="card">
+                    <div class="card-header" role="tab">
+                        <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="true" aria-controls="accordion-1 .item-1" href="#accordion-1 .item-1">Professional Games</a></h5>
+                    </div>
+                    <div class="collapse show item-1 justify-content-center align-items-center" role="tabpanel" data-parent="#accordion-1">
+                        <div class="card-body">
+                            <a href="https://fnagame.com/">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_fishing-north-atlantic.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Fishing: North Atlantic</h4>
+                                        <p style="margin: 0;">[Commercial Game (PC)]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Junior Gameplay Programmer</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_gaming-against-depression.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Gaming Against Depression</h4>
+                                        <p style="margin: 0;">[Commercial Game (Mobile)]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Project Management</li>
+                                            <li class="text-left">Game Design</li>
+                                            <li class="text-left">Puzzle Mechanics</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.EONRealityNorway.LHLFPS">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_lhl-first-aid.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">First Aid Simulator</h4>
+                                        <p style="margin: 0;">[Commercial Game (Mobile)]<br></p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Gameplay Programming</li>
+                                            <li class="text-left">Gameplay Programming</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab">
+                        <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-2" href="#accordion-1 .item-2">Personal / Student Games</a></h5>
+                    </div>
+                    <div class="collapse item-2" role="tabpanel" data-parent="#accordion-1">
+                        <div class="card-body">
+                            <a href="https://dexterandre.itch.io/lets-renovate-doggy-style">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_doggy-style.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Let's Renovate: Doggy Style!</h4>
+                                        <p style="margin: 0;">[GGJ 2019]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Physics Programming</li>
+                                            <li class="text-left">Texture Painting Mechanic</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://dexterandre.itch.io/go-ham">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_go-ham.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Go Ham!</h4>
+                                        <p style="margin: 0;">[Local Game Jam]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Menu Programming</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://neon-peon.itch.io/nordavind">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_nordavind.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Nordavind</h4>
+                                        <p style="margin: 0;">[Bachelor Project]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Project Management</li>
+                                            <li class="text-left">Game Design</li>
+                                            <li class="text-left">Avatar Gameplay Mechanics</li>
+                                            <li class="text-left">Shaders</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://globalgamejam.org/2018/games/trance-mission-1">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_trance-mission.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Trance Mission</h4>
+                                        <p style="margin: 0;">[GGJ 2018]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Rhythm Engine Programming</li>
+                                            <li class="text-left">Animated Fractal Shader</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://dexterandre.itch.io/butt-simulator">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_butt-simulator.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Butt Simulator</h4>
+                                        <p style="margin: 0;">[GGJ 2018]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Physics</li>
+                                            <li class="text-left">Leap Motion Integration</li>
+                                            <li class="text-left">Music</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a>
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_project-biohazard.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Project Biohazard</h4>
+                                        <p style="margin: 0;">[Group Side Project]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Project Management</li>
+                                            <li class="text-left">Game Design</li>
+                                            <li class="text-left">Procedural Level Generation</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a>
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_project-rts.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Project RTS</h4>
+                                        <p style="margin: 0;">[Group Assignment]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Camera Mechanics</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://loonybean.itch.io/space-hamster-prototype-2">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_bad-reception.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Bad Reception</h4>
+                                        <p style="margin: 0;">[Group Side Project]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Project Management</li>
+                                            <li class="text-left">Game Design</li>
+                                            <li class="text-left">Gameplay Mechanics</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://projects.invisionapp.com/share/AVB335CHU#/screens/230943002">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_galapasec.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">GalápaSec</h4>
+                                        <p style="margin: 0;">[Group Assignment]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Game Design</li>
+                                            <li class="text-left">Menu Design</li>
+                                            <li class="text-left">Menu Graphics</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a>
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_swarm.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Swarm</h4>
+                                        <p style="margin: 0;">[Solo Assignment]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Everything</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://loonybean.itch.io/bumpit">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_bumpit.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Bumpit</h4>
+                                        <p style="margin: 0;">[GGJ 2017]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Musical Gameplay</li>
+                                            <li class="text-left">Voice-Over Coordination</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://loonybean.itch.io/chicken-hunt">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_chicken-hunt.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Chicken Hunt</h4>
+                                        <p style="margin: 0;">[Deichman GJ 2016]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Gameplay Programming</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://loonybean.itch.io/deadly-dancer-alpha">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_deadly-dancer.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Deadly Dancer</h4>
+                                        <p style="margin: 0;">[Group Assignment]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Rhythm Engine Programming</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://globalgamejam.org/2016/games/maya-ragequit-simulator">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_maya-ragequit-simulator.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Maya Ragequit Simulator</h4>
+                                        <p style="margin: 0;">[GGJ 2016]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Music</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://loonybean.itch.io/stuffy-platformer">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_stuffy-hitman.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Stuffy Hitman</h4>
+                                        <p style="margin: 0;">[GGJ 2016]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Gameplay Programming</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab">
+                        <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-3" href="#accordion-1 .item-3">Programming</a></h5>
+                    </div>
+                    <div class="collapse item-3" role="tabpanel" data-parent="#accordion-1">
+                        <div class="card-body">
+                            <p>Here are some of my technical art works. Click the images to see video demonstrations of them in action. Some of them have extra behavioral scripts that are not listed.&nbsp;<br></p>
+                            <h2 class="text-center">Game Mechanics</h2>
+                            <a href="https://www.youtube.com/watch?v=Z51r0Y-QBUY&amp;feature=youtu.be">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_flocking.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Flocking</h4>
+                                        <p style="margin: 0;">[C#, Unity / C++, Unreal Engine 4]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Real-time Boids flocking</li>
+                                            <li class="text-left">Done in both Unity and Unreal</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21ALJ65xAHlo5sCNg&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21172878&amp;parId=D6A52D8909099D94%2127950&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_prog-quad-flow.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Graph Gameplay</h4>
+                                        <p style="margin: 0;">[C#, Unity]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Finds a quad flow through graph</li>
+                                            <li class="text-left">Similar to edge loops in 3D software</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21ABFzosIxPF6KMas&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21172883&amp;parId=D6A52D8909099D94%2127951&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_prog-rhythm-engine.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Rhythm Engine</h4>
+                                        <p style="margin: 0;">[C#, Unity]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Synchronized system with music</li>
+                                            <li class="text-left">Uses events and delegates</li>
+                                            <li class="text-left">WARNING: SOUND</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21AAdOCD5EykWrn3Y&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21172875&amp;parId=D6A52D8909099D94%2127947&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_prog-terrain-sliding.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Terrain Sliding</h4>
+                                        <p style="margin: 0;">[C#, Unity]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Downwards sliding on terrain</li>
+                                            <li class="text-left">Custom physics</li>
+                                            <li class="text-left">Prevents upwards acceleration</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=PaFtj-MmV5U&amp;feature=youtu.be&amp;t=30">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_prog-musical-visualization.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Music Visualizer</h4>
+                                        <p style="margin: 0;">[C#, Unity]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Moving cubes with audio spectrum</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <h2 class="text-center">Algorithms</h2>
+                            <a href="https://onedrive.live.com/?authkey=%21AETNnn2hg1TjAuY&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21172880&amp;parId=D6A52D8909099D94%2127948&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_prog-convex-hull.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Convex Hull (2D)</h4>
+                                        <p style="margin: 0;">[C++, OpenGL, Qt]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Creates a 2D convex hull</li>
+                                            <li class="text-left">Takes any set of random points</li>
+                                            <li class="text-left">Using Graham Scan</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21AH1SgB2m%5FDX%5FYAI&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21172870&amp;parId=D6A52D8909099D94%2127945&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_prog-barycentric-collision.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Barycentric Collision</h4>
+                                        <p style="margin: 0;">[C++, OpenGL, Qt]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Barycentric collision detection</li>
+                                            <li class="text-left">Custom collision physics</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21APifo7glBWMspTk&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21172876&amp;parId=D6A52D8909099D94%2127949&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_prog-frustum-culling.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Frustum Culling</h4>
+                                        <p style="margin: 0;">[C++, OpenGL, Qt]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Culls objects outside frustum</li>
+                                            <li class="text-left">Uses six dot products</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21AJ7Jt3iOqkvWIMA&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21172891&amp;parId=D6A52D8909099D94%2127952&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_prog-sosi-file.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Reading Map Data</h4>
+                                        <p style="margin: 0;">[C++, OpenGL, Qt]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Reads Norwegian SOSI file</li>
+                                            <li class="text-left">Places points based on file</li>
+                                            <li class="text-left">100-meter altitudes in red</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab">
+                        <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-4" href="#accordion-1 .item-4">Technical Art</a></h5>
+                    </div>
+                    <div class="collapse item-4" role="tabpanel" data-parent="#accordion-1">
+                        <div class="card-body">
+                            <p>Here are some of my technical art works. Click the images to see video demonstrations of them in action. Some of them have extra behavioral scripts that are not listed.&nbsp;<br></p>
+                            <a href="https://dexterandre.net/works-student-game-projects.html">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_techart-deformable-snow.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Deformable Snow</h4>
+                                        <p style="margin: 0;">[C#, Unity]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Shader that deforms snow</li>
+                                            <li class="text-left">Using splat maps</li>
+                                            <li class="text-left">Uses tessellation for optimization</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21AMxHdyzaEhepnK8&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21102099&amp;parId=D6A52D8909099D94%2121969&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_techart-animated-fractal.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Animated Fractal Shader</h4>
+                                        <p style="margin: 0;">[C#, Unity, ShaderLab]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Animated Mandelbrot fractal</li>
+                                            <li class="text-left">Animation in sync with music underlying rhythm engine</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a>
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_techart-procedural-snow.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Procedural Snow Texture</h4>
+                                        <p style="margin: 0;">[C#, Unity, Shader Forge]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Procedurally generated snow texture</li>
+                                            <li class="text-left">Uses Shader Forge plugin</li>
+                                            <li class="text-left">Added snow glitter</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21AHPCw4SnjMtV8l8&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21463744&amp;parId=D6A52D8909099D94%2119829&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_strange-attractor.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Strange Attractor</h4>
+                                        <p style="margin: 0;">[Python, Autodesk Maya]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Procedurally generated Lorenz attractor</li>
+                                            <li class="text-left">Custom Python script</li>
+                                            <li class="text-left">Post-processed for clean UVs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab">
+                        <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-5" href="#accordion-1 .item-5">Mathematics</a></h5>
+                    </div>
+                    <div class="collapse item-5" role="tabpanel" data-parent="#accordion-1">
+                        <div class="card-body">
+                            <h2 class="text-center">Guides / Tutorials</h2>
+                            <a href="https://onedrive.live.com/?authkey=%21AK8Ybz%5Fk1jty%2D4U&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21463745&amp;parId=D6A52D8909099D94%2119829&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-survival-guide-2.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Survival Guide</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Mathematical cheat sheet</li>
+                                            <li class="text-left">Covers topics like calculus, linear algebra, geometry, etc.&nbsp;</li>
+                                            <li class="text-left">Norwegian only - sorry about that!&nbsp;</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21AF0Ekb%2DcbajjzXQ&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186837&amp;parId=D6A52D8909099D94%2119829&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-counting-subdiv-cube-vertices.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Vertex Counting Formula</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Tutorial for counting vertices on dibdivided cube</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21ACFJJ%2DO1lQYuHNE&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186835&amp;parId=D6A52D8909099D94%2119829&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-runtime-function-modelling.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Runtime 2D Trajectory Modelling</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Tutorial for modelling the trajectory of a 2D curve</li>
+                                            <li class="text-left">Height and length as parameters</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21ABFPugHd8nEcS%5FY&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186838&amp;parId=D6A52D8909099D94%2119829&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-camera-trigonometry.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Camera Trigonometry</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Tutorial for the mathematics behind a 3rd-person spherical camera rig</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <h2 class="text-center">GeoGebra Files</h2>
+                            <a href="https://onedrive.live.com/?authkey=%21AOjxMlck3mKN2fo&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21102070&amp;parId=D6A52D8909099D94%2121963&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-refraction.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Refraction (2D)</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Refracting rays through a circle in 2D</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21AEQXtnao68%5FhfTI&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21102059&amp;parId=D6A52D8909099D94%2121963&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-visible-area-of-sphere.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Visible Area of Circle</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Calculating the visible area of a circle from arbitrary position</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21ABPRpHdkXdxaO%5Fw&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21102058&amp;parId=D6A52D8909099D94%2121963&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-vector-field-divergence-and-curl.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Divergence and Curl (2D)</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Analyzing divergence and curl of arbitrary 2D vector field</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21ANZachggKkEJ3sw&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21102076&amp;parId=D6A52D8909099D94%2121963&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-cubic-hermite.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Cubic Hermite Interpolation</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Interpolates 5 arbitrary points (unique x-coordinates)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21AAmy%2DVtwaliibwE&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21102080&amp;parId=D6A52D8909099D94%2121963&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-de-casteljau-algorithm.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">de Casteljau Spline</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">de Casteljau spline from 5 arbitrary points</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://onedrive.live.com/?authkey=%21ALPOyRJ0erg3glc&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21102087&amp;parId=D6A52D8909099D94%2121963&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-curvature.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Curvature</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Calculating curvature (red) of arbitrary parametric curve</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                            <h2 class="text-center">Illustrations</h2>
+                            <a href="https://onedrive.live.com/?authkey=%21AEN%5FqRq2tHy7q5Q&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186834&amp;parId=D6A52D8909099D94%2119829&amp;o=OneUp">
+                                <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_math-radian-chart.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                    <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                        <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Unit Circle</h4>
+                                        <p style="margin: 0;">[Extracurricular]</p>
+                                        <ul style="margin: 0;">
+                                            <li class="text-left">Unit circle with degrees, exact radians, and decimal radians</li>
+                                            <li class="text-left">Because I&nbsp;<i class="fa fa-heart-o"></i>&nbsp;the Unit Circle</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab">
+                        <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-6" href="#accordion-1 .item-6">Miscellaneous</a></h5>
+                    </div>
+                    <div class="collapse item-6" role="tabpanel" data-parent="#accordion-1">
+                        <div class="card-body">
+                            <p>Here are some written works I have done for school.&nbsp;<br><br>I have whited out most of the other members' names in case they prefer privacy, but I can give their names upon request (with permission from them, of course).<br></p>
+                            <h2
+                                class="text-center">Game Design</h2>
+                                <p>Here are some game design works I have done during my 3-year bachelor's degree. I have participated actively in the game design for my other projects, but the items listed here are my quantifiable works.&nbsp;<br></p>
+                                <a
+                                    href="https://onedrive.live.com/?authkey=%21ALC37expgaAT79s&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186822&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                    <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_galapasec-report-2.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                        <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                            <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">GDD: GalápaSec</h4>
+                                            <p style="margin: 0;">[Group Assignment]</p>
+                                            <ul style="margin: 0;">
+                                                <li class="text-left">Game design document for mobile gamification concept "GalápaSec"</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21AHWqgqOMESTVHyg&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186831&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_swarm-pitch.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">1-Page Pitch: Swarm</h4>
+                                                <p style="margin: 0;">[Solo Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">1-page pitch practice for game "Swarm"</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21AMOH5tT4CjL25o4&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186827&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_bad-reception-gdd.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">GDD: Bad Reception</h4>
+                                                <p style="margin: 0;">[Extracurricular]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Game design document for scrapped student group project "Bad Reception"</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21ALhgJKqW3sA6Ahk&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186825&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_deadly-dancer-gdd.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">GDD: Deadly Dancer</h4>
+                                                <p style="margin: 0;">[Group Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Game design document for group assignment "Deadly Dancer"</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21ABHP9L7qN%5FxFTGg&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186829&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_dark-souls-design-analysis.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Analysis: Dark Souls</h4>
+                                                <p style="margin: 0;">[Solo Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Game design analysis on player engagement in Dark Souls</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <h2 class="text-center">School Reports</h2>
+                                    <p>Here are some school reports I have contributed to during my 3-year bachelor's degree.&nbsp;<br></p>
+                                    <a href="https://onedrive.live.com/?authkey=%21AA3gVReKv%5FY0WCo&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%21104375&amp;parId=D6A52D8909099D94%2122212&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_cone-target-selection.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Report: Nordavind</h4>
+                                                <p style="margin: 0;">[Bachelor Thesis]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Contributions: "Introduction", "Game Description", "Project Management", "Programming Patterns and Architecture", "Avatar Mechanics", "Shaders", "Conclusion"</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21AF0qPHJ%5FOXN4XE4&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186843&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_nordavind-preprod.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Preprod. Report: Nordavind</h4>
+                                                <p style="margin: 0;">[Group Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Contributions: "Idea Development", "Roles and Responsibilities", "Milestones", "Project Breakdown", "Scrum"</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21ANP2JUYAQs9Fqyw&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186824&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_galapasec-report.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Report: GalápaSec</h4>
+                                                <p style="margin: 0;">[Group Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Group report for gamification concept "GalápaSec"</li>
+                                                    <li class="text-left">Contributions: "Demographics", "Illegal Fishing", "Other Ideas", "Game Design", "Gamification"</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21ADD6ocPDVhRFFPo&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186820&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_swarm-report.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Report: Swarm</h4>
+                                                <p style="margin: 0;">[Solo Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Report for twin-stick shooter "Swarm"</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21AP9bgCEs1GxLnkc&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186823&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_rts-report.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Report: Project RTS</h4>
+                                                <p style="margin: 0;">[Group Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Group report for real-time strategy game "Project RTS"</li>
+                                                    <li class="text-left">Contributions: "Camera"</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21AL%5FY9oWLYfmHV14&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2186826&amp;parId=D6A52D8909099D94%2119827&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_hear-i-am.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Report: Hear I Am</h4>
+                                                <p style="margin: 0;">[Group Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Group report for original board game design "Hear I Am"</li>
+                                                    <li class="text-left">Contributions: "Spillet tar form", "Regelhefte"</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <h2 class="text-center">STELLA Simulations</h2>
+                                    <p>Here are some simulations I have done using STELLA. The links point to the respective reports, and not the actual files. You can request the simulation files by email.&nbsp;<br></p>
+                                    <a href="https://onedrive.live.com/?authkey=%21AGQWzz%5FjFf0WBvY&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2178406&amp;parId=D6A52D8909099D94%2118938&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_sim-phrumsengla.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Report: National Park</h4>
+                                                <p style="margin: 0;">[Group Project]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Report for re-introduction of leopards into a national park, and the ecology following this situation</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21AInOhMuzykrCEOg&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2178372&amp;parId=D6A52D8909099D94%2118937&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_sim-dhors.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Report: Phone Company</h4>
+                                                <p style="margin: 0;">[Group Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Report for a phone company's taxation of disposal of phones</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://onedrive.live.com/?authkey=%21AP%2DBC3nGWKhF%2DWQ&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2178356&amp;parId=D6A52D8909099D94%2118936&amp;o=OneUp">
+                                        <div class="text-center d-lg-flex justify-content-between justify-content-lg-center" style="margin-top: 8px;margin-bottom: 8px;text-decoration: initial;"><img src="assets/img/cmp_sim-population.png" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;">
+                                            <div class="flex-fill" style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;color: rgb(255,255,255);background-color: #3782ed;">
+                                                <h4 style="margin: 0;margin-top: 4px;letter-spacing: -1px;">Report: Chinese Population</h4>
+                                                <p style="margin: 0;">[Solo Assignment]</p>
+                                                <ul style="margin: 0;">
+                                                    <li class="text-left">Report for sustaining pension for incoming senior population</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="div_experienceAndEducation">
+            <h1>Resume</h1>
+            <p>You can download my resume&nbsp;<a href="https://onedrive.live.com/?authkey=%21APT0yxwG5YnBD4M&amp;cid=D6A52D8909099D94&amp;id=D6A52D8909099D94%2168127&amp;parId=D6A52D8909099D94%2113997&amp;o=OneUp">here</a>.&nbsp;<br></p>
+            <h1>Skills &amp; Tools</h1>
+            <p>Following is a set of various programming languages, software, and hardware that I am familiar with. My strongest ones are C#, C++, Unity, and Unreal Engine 4, but I have worked enough with the others mentioned to be able to pick them up quickly.&nbsp;</p>
+            <div
+                class="table-responsive text-center">
+                <table class="table">
+                    <thead class="text-center text-white bg-secondary">
+                        <tr style="background-color: #3782ED;">
+                            <th>Type</th>
+                            <th>Skills</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">Game Engines</td>
+                            <td class="text-left">Unity, Unreal Engine 4</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Programming Languages</td>
+                            <td class="text-left">C#, C++, JavaScript, Rust</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Graphics Languages</td>
+                            <td class="text-left">OpenGL, WebGL, GLSL, ShaderLab</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Programming IDEs</td>
+                            <td class="text-left">Visual Studio, VS Code, Qt</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Project Tools</td>
+                            <td class="text-left">GitHub, Perforce, SourceTree, <br>Slack, <br>Trello, Jira, HacknPlan, MkDocs,&nbsp;<br>Meld,&nbsp;<br>Google Docs, Microsoft Word,&nbsp;<br>Google Sheets, Microsoft Excel,&nbsp;<br>Google Slides, Microsoft PowerPoint</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Content Creation Software</td>
+                            <td class="text-left">Affinity Designer, Adobe Photoshop, Inkscape,&nbsp;<br>Blender, Autodesk Maya, Autodesk 3DS Max,&nbsp;<br>FL Studio</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Web / UI Languages</td>
+                            <td class="text-left">HTML5, CSS</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Misc. Software</td>
+                            <td class="text-left">GeoGebra, STELLA</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <h1>Experience Timeline</h1>
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="text-center text-white bg-secondary">
+                    <tr style="background-color: #3782ED;">
+                        <th>Date</th>
+                        <th>Experience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jul 2019 — Ongoing</td>
+                        <td>Programmer at <a href="https://miscgames.no/">Misc Games</a></td>
+                    </tr>
+                    <tr>
+                        <td>Aug 2019</td>
+                        <td>Held a three-day VR programming course for kids age 13-15 in Unity with HTC Vive</td>
+                    </tr>
+                    <tr>
+                        <td>Feb 2017 — Jun 2019</td>
+                        <td>Worked as mentor in mathematics at <a href="https://www.klatreveggen-leksehjelp.com/">Klatreveggen Leksehjelp</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jun 2019</td>
+                        <td>Held a one-week programming course for kids age 10-12 in Unity</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 2019 — Jun 2019</td>
+                        <td>Six months of professional practice.&nbsp;<br>Worked on "Gaming Against Depression" and "<a href="https://play.google.com/store/apps/details?id=com.EONRealityNorway.LHLFPS">Førstemann på skadested</a>". <br>Part of course "<a href="https://www.inn.no/content/view/full/117923/language/nor-NO">Professional Practice</a>".&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Aug 2018 — Jun 2019</td>
+                        <td>One-year add-on programme in "<a href="https://eng.inn.no/study-opportunities/catalogue/film-tv-and-computer-and-game-studies/add-on-programme-in-virtual-reality-and-augmented-reality">Augmented and Virtual Reality</a>" at Inland
+                            University of Applied Sciences</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 2019</td>
+                        <td>Volunteered and attended <a href="https://globalgamejam.org/2019/jam-sites/ggj-hamar">Global Game Jam 2019</a>;&nbsp;created "<a href="https://dexterandre.itch.io/lets-renovate-doggy-style">Let's Renovate: Doggy Style!</a>"</td>
+                    </tr>
+                    <tr>
+                        <td>Nov 2018</td>
+                        <td>Attended local game jam; created "<a href="https://dexterandre.itch.io/go-ham">Go Ham!</a>"</td>
+                    </tr>
+                    <tr>
+                        <td>Oct 2018</td>
+                        <td>Attended two-day motion capture course (again)</td>
+                    </tr>
+                    <tr>
+                        <td>Aug 2015 — Jun 2018</td>
+                        <td>Bachelor's degree in "<a href="https://www.inn.no/studiehaandbok/studiehaandboeker/2015-2016-studiehaandbok/studier/hihm/campus-hamar/bachelor/b2visim-bachelor-i-spillteknologi-og-simulering">Game Technology and Simulation</a>"
+                            at Inland University of Applied Sciences</td>
+                    </tr>
+                    <tr>
+                        <td>Jun 2018</td>
+                        <td>Attended two-day <a href="https://1drv.ms/u/s!ApSdCQmJLaXWneEdexiFm_ROsB4YVw?e=UuAtq2">motion capture</a> course</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 2016 — Jun 2018</td>
+                        <td>Worked as teaching assistant in mathematics at Inland University of Applied Sciences</td>
+                    </tr>
+                    <tr>
+                        <td>Apr 2018</td>
+                        <td>Held a playtest for game "<a href="https://neon-peon.itch.io/nordavind">Nordavind</a>" at&nbsp;<a href="https://www.facebook.com/events/588426294844147/">TestBonanza #16</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mar 2018</td>
+                        <td>Held a playtest for game "<a href="https://neon-peon.itch.io/nordavind">Nordavind</a>" at Inland University of Applied Sciences</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 2018</td>
+                        <td>Volunteered and attended <a href="https://globalgamejam.org/2018/jam-sites/ggj-hamar">Global Game Jam 2018</a>; created "<a href="https://globalgamejam.org/2018/games/trance-mission-1">Trance Mission</a>" and "<a href="https://globalgamejam.org/2018/games/butt-simulator">Butt Simulator</a>"</td>
+                    </tr>
+                    <tr>
+                        <td>Dec 2017</td>
+                        <td>Delivered game concept "<a href="https://neon-peon.itch.io/nordavind">Nordavind</a>" as part of <a href="https://www.inn.no/content/view/full/130947/language/nor-NO">Preproduction for pilot</a> course</td>
+                    </tr>
+                    <tr>
+                        <td>Aug 2017 — Oct 2017</td>
+                        <td>Designed and lectured a nine-week mathematics preparatory course for Inland University of Applied Sciences</td>
+                    </tr>
+                    <tr>
+                        <td>Feb 2017 — Jun 2017</td>
+                        <td>Created three assignments for course <a href="https://www.inn.no/content/view/full/130933/language/nor-NO">Game- and Systems Thinking</a> for Inland University of Applied Sciences</td>
+                    </tr>
+                    <tr>
+                        <td>Aug 2015 — Jun 2017</td>
+                        <td>Project leader and programmer at student game development group "<a href="https://loonybean.itch.io/">Loony Bean</a>"</td>
+                    </tr>
+                    <tr>
+                        <td>Jun 2017</td>
+                        <td>Delivered game concept "<a href="https://projects.invisionapp.com/share/AVB335CHU#/screens/230943002">GalápaSec</a>" as part of <a href="https://www.inn.no/content/view/full/130908/language/nor-NO">Gamification</a> course</td>
+                    </tr>
+                    <tr>
+                        <td>Feb 2017</td>
+                        <td>Held a playtest for game "Project Biohazard" as <a href="https://www.facebook.com/events/1210459298991047">TestBonanza #12</a></td>
+                    </tr>
+                    <tr>
+                        <td>Feb 2017</td>
+                        <td>Volunteered and attended <a href="https://globalgamejam.org/2017/jam-sites/ggj-hamar">Global Game Jam 2017</a>; created "<a href="https://loonybean.itch.io/bumpit">Bumpit</a>" (worked with <a href="https://www.imdb.com/name/nm1518788/">Nikki Rapp</a>)</td>
+                    </tr>
+                    <tr>
+                        <td>Dec 2016</td>
+                        <td>Delivered game "Swarm" as part of <a href="https://www.inn.no/content/view/full/130911/language/nor-NO">System Design</a> course</td>
+                    </tr>
+                    <tr>
+                        <td>Oct 2016</td>
+                        <td>Delivered game "Project RTS" as part of <a href="https://www.inn.no/content/view/full/130911/language/nor-NO">System Design</a> course</td>
+                    </tr>
+                    <tr>
+                        <td>Sep 2016</td>
+                        <td>Attended game jam at Oslo Public Library (Deichman); created "<a href="https://loonybean.itch.io/chicken-hunt">Chicken Hunt</a>"</td>
+                    </tr>
+                    <tr>
+                        <td>Sep 2016</td>
+                        <td>Held a playtest for game "<a href="https://loonybean.itch.io/space-hamster-prototype-2">Bad Reception</a>" at <a href="https://www.facebook.com/events/655710664583490/">TestBonanza #11</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jun 2016</td>
+                        <td>Delivered game "<a href="https://loonybean.itch.io/deadly-dancer-alpha">Deadly Dancer</a>" as part of <a href="https://www.inn.no/content/view/full/130913/language/nor-NO">Programming II</a> course</td>
+                    </tr>
+                    <tr>
+                        <td>Apr 2016</td>
+                        <td>(One day) QA-tested game "<a href="http://shadowpuppeteer.com/">Shadow Puppeteer</a>" for <a href="https://sareptastudio.com/">Sarepta Studio</a> (Wii U version)</td>
+                    </tr>
+                    <tr>
+                        <td>Feb 2016</td>
+                        <td>Volunteered and attended <a href="https://globalgamejam.org/2016/jam-sites/ggj-hamar">Global Game Jam 2016</a>; created "<a href="https://loonybean.itch.io/stuffy-platformer">Stuffy Hitman</a>"</td>
+                    </tr>
+                    <tr>
+                        <td>Nov 2015</td>
+                        <td>Held a playtest for game "<a href="https://loonybean.itch.io/space-hamster-prototype-2">Bad Reception</a>" at <a href="https://www.facebook.com/events/1673125606237182/">TestBonanza #9</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h1>Education Summary</h1>
+        <p style="font-size: 18px;"><strong>Add-On Programme in Augmented and Virtual Reality</strong></p>
+        <p>Full course plan available <a href="https://www.inn.no/studiehaandbok/studiehaandboeker/2018-2019-studiehaandbok/studier/amek-fakultet-for-audiovisuelle-medier-og-kreativ-teknologi/videreutdanninger/v2vrar-virtual-and-augmented-reality">here</a>.&nbsp;</p>
+        <div
+            class="table-responsive text-center">
+            <table class="table">
+                <thead class="text-center text-white bg-secondary">
+                    <tr style="background-color: #3782ED;">
+                        <th>Semester</th>
+                        <th></th>
+                        <th>Course</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td class="text-center"><a href="https://www.inn.no/content/view/full/117923/language/nor-NO">VR / AR Professional Practice</a></td>
+                        <td></td>
+                        <td><a href="https://www.inn.no/content/view/full/109959/language/nor-NO">Mathematics III</a> (part of Bachelor)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td><a href="https://www.inn.no/content/view/full/117924/language/nor-NO">VR / AR on Mobile Platforms</a></td>
+                        <td></td>
+                        <td><a href="https://www.inn.no/content/view/full/137282/language/nor-NO">Programming and Scripting for VR / AR Systems</a></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td><a href="https://www.inn.no/content/view/full/117927/language/nor-NO">Introduction to VR / AR Production</a></td>
+                        <td><a href="https://www.inn.no/content/view/full/117926/language/nor-NO">Development for VR / AR Production</a></td>
+                        <td><a href="https://www.inn.no/content/view/full/117925/language/nor-NO">Content Creation for VR / AR Production</a></td>
+                    </tr>
+                </tbody>
+            </table>
     </div>
-    <div class="footer">
-        <p>Created by Dexter André Osiander. Last updated 11.10.2019 [D/M/Y]. </p>
-        <ul class="icon-links">
-            <li><a href="https://github.com/dexterAndre"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/dexter-andr%C3%A9-osiander-b1819415b/"><i class="fab fa-linkedin-in"></i></a></li>
-        </ul>
+    <p style="font-size: 18px;"><strong>Bachelor's Degree in Game Technology and Simulation</strong></p>
+    <p>Full course plan available <a href="https://www.inn.no/studiehaandbok/studiehaandboeker/2015-2016-studiehaandbok/studier/hihm/campus-hamar/bachelor/b2visim-bachelor-i-spillteknologi-og-simulering">here</a>.&nbsp;</p>
+    <div class="table-responsive text-center">
+        <table class="table">
+            <thead class="text-center text-white bg-secondary">
+                <tr style="background-color: #3782ED;">
+                    <th>Semester</th>
+                    <th></th>
+                    <th>Course</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td></td>
+                    <td><a href="https://www.inn.no/content/view/full/130960/language/nor-NO">Bachelor Project: Pilot</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td><a href="https://www.inn.no/content/view/full/130961/language/nor-NO">Game Engine Architecture</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130938/language/nor-NO">Visualization and Simulation</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130947/language/nor-NO">Preproduction for Pilot</a></td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td><a href="https://www.inn.no/content/view/full/130910/language/nor-NO">3D Programming</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130908/language/nor-NO">Gamification</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130909/language/nor-NO">Databases and Networks</a></td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td><a href="https://www.inn.no/content/view/full/130911/language/nor-NO">System Design</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130943/language/nor-NO">Algorithms and Data Structures for Games</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130933/language/nor-NO">Game- and Systems Thinking</a></td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td><a href="https://www.inn.no/content/view/full/130945/language/nor-NO">Mathematics II</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130913/language/nor-NO">Programming II</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130942/language/nor-NO">Game Design</a></td>
+                </tr>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td><a href="https://www.inn.no/content/view/full/130946/language/nor-NO">Mathematics I</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130914/language/nor-NO">Programming I</a></td>
+                    <td><a href="https://www.inn.no/content/view/full/130906/language/nor-NO">Introduction to 3D</a></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+    </div>
+    </div>
+    <div class="bg-secondary" style="background-color: inherit;padding-right: 10%;padding-left: 10%;padding-top: 32px;padding-bottom: 32px;">
+        <p class="d-xl-flex justify-content-xl-center" style="margin: 0px;">Website last updated 02.12.2019 [D/M/Y]</p>
+        <div class="btn-group d-inline-block d-xl-flex justify-content-xl-center" role="group" style="margin-right: 30%;margin-left: 30%;"><a class="btn btn-primary" role="button" href="mailto:dexter.andre@outlook.com"><i class="fa fa-envelope" style="font-size: 48px;"></i></a><a class="btn btn-primary" role="button" href="https://github.com/dexterAndre"><i class="fa fa-github" style="font-size: 48px;"></i></a>
+            <a
+                class="btn btn-primary" role="button" href="https://www.linkedin.com/in/dexter-andre/"><i class="fa fa-linkedin-square" style="font-size: 48px;"></i></a>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/pageNavigation.js"></script>
 </body>
 
 </html>
