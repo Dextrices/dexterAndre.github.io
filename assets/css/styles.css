@@ -1,53 +1,15 @@
-.bg-secondary {
-  background-color: #3782ED!important;
+#header-textbox {
+  border-radius: 32px;
 }
 
-.bg-primary {
-  background-color: #FFFFFF!important;
+.quick-access {
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
-.btn {
-  display: inline-block;
-  font-weight: 700;
-  color: #212529;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  padding: .375rem .75rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.dropdown-menu {
+#pixel-doodle {
   position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 10rem;
-  padding: .5rem 0;
-  margin: 0;
-  font-size: 1rem;
-  color: #212529;
-  text-align: left;
-  list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 2px solid #3681ec;
-  border-radius: 1rem;
-  border-top-left-radius: 0;
-}
-
-.img-fluid {
-  max-width: 200px;
-  height: auto;
+  right: 0;
+  bottom: 48px;
 }
 
